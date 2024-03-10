@@ -1,3 +1,4 @@
+# pip freeze > requirements.txt 
 from flask import Flask, request, jsonify
 import schedule
 import time
