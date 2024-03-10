@@ -75,12 +75,7 @@ jobs:
         with:
           app-name: 'job-hub-ai'
           slot-name: 'Production'
-      - name: Install dependencies and run app.py
-        run: |
-          python -m venv venv
-          source venv/bin/activate
-          pip install -r requirements.txt
-          python app.py
+ 
 
          
 
