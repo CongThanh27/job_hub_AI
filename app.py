@@ -34,6 +34,10 @@ def get_recommendation_jobs_by_user_id(user_id):
 def get_recommendation_users_by_job_id(job_id):
     list_user_recommend = get_recommendation_user_by_job(job_id)
     return jsonify(list_user_recommend)
+#Hello
+@app.route('/', methods=['GET'])
+def hello():
+    return "Hello World"
 
 if __name__ == '__main__':
     # Khởi chạy lịch trình trong một luồng riêng biệt
