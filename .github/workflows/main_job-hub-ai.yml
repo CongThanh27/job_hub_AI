@@ -76,6 +76,8 @@ jobs:
           app-name: 'job-hub-ai'
           slot-name: 'Production'
  
+      - name: Run App
+        run: python app.py
 
          
 
