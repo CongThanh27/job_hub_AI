@@ -4,8 +4,6 @@ import schedule
 import time
 from handle_data import process_data, encode_data
 from recommendation import user_user_collaborative_filtering, item_item_collaborative_filtering, get_recommendation_user_by_job, get_recommendation_job_by_user
-from app import refresh_data
-from app import get_recommendation_jobs_by_user_id, get_recommendation_users_by_job_id, hello
 from collaborative_filtering import CF
 from db_connection import connect_to_database_sql, connect_to_mongodb
 
