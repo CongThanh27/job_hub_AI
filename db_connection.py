@@ -2,10 +2,10 @@ import pyodbc
 from pymongo import MongoClient
 def connect_to_database_sql():
     # Chuỗi kết nối SQL Server
-    server = 'jobhub-kltn.database.windows.net'
-    database = 'jobhub-kltn'
+    server = 'job-hub-kltn.database.windows.net'
+    database = 'job-hub-database'
     username = 'jobhub'
-    password = '28072002Thanh@'
+    password = '28072002Thanh'
     driver= '{ODBC Driver 17 for SQL Server}'
 
     # Tạo chuỗi kết nối
@@ -18,7 +18,7 @@ def connect_to_database_sql():
 
 def connect_to_mongodb():
     # Chuỗi kết nối MongoDB
-    uri = "mongodb+srv://toannguyen7202:kltn2024@cluster0.m9xmsj8.mongodb.net/"
+    uri = "mongodb+srv://nguyencongthanh280702:28072002@job-hub-recommed.fsatj4i.mongodb.net/?retryWrites=true&w=majority&appName=Job-Hub-Recommed"
     client = MongoClient(uri)
     # Kết nối đến cơ sở dữ liệu
     db = client['jobhub']  # Thay thế 'your_database_name' bằng tên của cơ sở dữ liệu MongoDB của bạn
