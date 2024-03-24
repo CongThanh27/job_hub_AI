@@ -2,10 +2,10 @@ import pyodbc
 from pymongo import MongoClient
 def connect_to_database_sql():
     # Chuỗi kết nối SQL Server
-    server = 'job-hub-kltn.database.windows.net'
-    database = 'job-hub-database'
-    username = 'jobhub'
-    password = '28072002Thanh'
+    server = 'jobhub-kltn-server.database.windows.net'
+    database = 'ktln-dbs'
+    username = 'kltn-server@jobhub-kltn-server'
+    password = '28072002Thanh@'
     driver= '{ODBC Driver 17 for SQL Server}'
 
     # Tạo chuỗi kết nối
